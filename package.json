@@ -1,6 +1,6 @@
 {
   "name": "travis-to-release",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Configurando travis para que el deploy sea una release segun tags",
   "main": "index.js",
   "scripts": {
