@@ -1,0 +1,30 @@
+{
+  "name": "travis-to-release",
+  "version": "0.0.1",
+  "description": "Configurando travis para que el deploy sea una release segun tags",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"Build script\" && exit 0",
+    "cz": "git-cz",
+    "commitmsg": "validate-commit-msg",
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gmarcos87/travis-to-release.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "GNUv3",
+  "bugs": {
+    "url": "https://github.com/gmarcos87/travis-to-release/issues"
+  },
+  "homepage": "https://github.com/gmarcos87/travis-to-release#readme",
+  "devDependencies": {
+    "commitizen": "^2.9.6",
+    "husky": "^0.14.3",
+    "standard-version": "^4.2.0",
+    "validate-commit-msg": "^2.14.0"
+  }
+}
